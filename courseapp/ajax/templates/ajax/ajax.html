@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX in Django</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <button type="button" class="btn btn-success btn-lg">Get</button>
+    <ul id="seconds"></ul>
+
+
+</body>
+</html>
+    <script>
+    $(document).ready(function() {
+        $(".btn").click(function() {
+            $.ajax({
+                url: '{% url 'get_data' %}',  // Use the URL mapped to your Django view
+                type: 'GET',  // GET or POST, depending on your need
+                data: {
+                    button_text : $(this).text()
+                },
+                success: function(data) {
+                    $(".btn").text(data.seconds);  // Display the response message
+                    $("#seconds").append('<li>' + response.seconds + '</>li>')
+                }
+            });
+        });
+    });
+    </script>

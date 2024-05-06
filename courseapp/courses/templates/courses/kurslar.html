@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+
+{% block page_title %}
+<h1>KURSLAR</h1>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-3">
+        <div class="row">
+            <div class="col-12">
+                <h1>BAŞARIYLA EKLENDİ</h1>
+                <ul>
+                    {% for x in page_obj %}
+                        <li>{{ x }}</li>
+                    {% endfor %}
+                </ul>
+
+
+                <!-- Sayfalama bağlantıları -->
+                <div>
+                    {% if page_obj.has_previous %}
+                        <a href="?page={{ page_obj.previous_page_number }}">Önceki</a>
+                    {% endif %}
+
+                    <span>Sayfa {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}</span>
+
+                    {% if page_obj.has_next %}
+                        <a href="?page={{ page_obj.next_page_number }}">Sonraki</a>
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+</div>
+{% endblock %}

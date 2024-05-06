@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+
+{% block page_title %}
+<h1>KURSLAR LİSTELE</h1>
+{% endblock %}
+
+
+{% block content %}
+<div class="container mt-3">
+        <div class="row">
+            <div class="col-12">
+                <table class=" table table-sm table-bordered">
+                    <thead>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th style="width:120px"></th>
+                    </thead>
+                    <tbody>
+                        {% for course in courses %}
+                        <tr class="active">
+                            <td> {{course.title}} </td>
+                            <td> {{course.description}} </td>
+                            <td>
+                                <a href="{% url 'course-edit' course.id %}" class ="btn btn-primary btn-sm">Güncelle</a>
+                            </td>
+                            <td>
+                                <a href="{% url 'course-delete' course.id %}" class ="btn btn-danger btn-sm btn-lg">Sil</a>
+                            </td>
+                            <td>
+                                <a href="{% url 'course-list' %}" class ="btn btn-secondary btn-sm">Gönder</a>
+                                <a  id="hidden" href="https://facebook.com/share?url=http://devbrian.com}" class="btn btn-primary btn-sm"><i class="fa fa-facebook"></i> Facebook</a>
+                                <a  id="hidden" href="https://www.twitter.com/share?url=http://devbrian.com" class="btn btn-info btn-sm"><i class="fa fa-twitter"></i> Twitter</a>
+                                <a  id="hidden" href="https://www.instagram.com/share?url=http://devbrian.com" class="btn btn-danger btn-sm"><i class="fa fa-instagram"></i> Instagram</a>
+
+                                <a style="background-color: green;" href="https://api.whatsapp.com/send?+254799043853=+*+905456871996*&text=%20*&title=<Message>&summary=<Description>&source=http://devbrian.comxxx" class="btn btn-success btn-sm"><i class="fa fa-whatsapp"></i> Whatsapp</a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</div>
+{% endblock %}

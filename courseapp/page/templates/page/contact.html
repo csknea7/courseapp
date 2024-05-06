@@ -1,0 +1,60 @@
+{% extends 'layout.html' %}
+{% load email_tags %}
+
+{% block page_title %}
+    İletişim
+{% endblock %}
+
+{% block content %}
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-md-start">
+            <!-- Menü dahil ediliyor -->
+            {% include 'courses/partials/_categories.html' %}
+            <h1>İLETİŞİM</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <ul>
+                {% for x in page_obj %}
+                    <li>{{ x }}</li>
+                {% endfor %}
+            </ul>
+
+            <!-- Sayfalama bağlantıları -->
+            <div>
+                {% if page_obj.has_previous %}
+                    <a href="?page={{ page_obj.previous_page_number }}">Önceki</a>
+                {% endif %}
+
+                <span>Sayfa {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}</span>
+
+                {% if page_obj.has_next %}
+                    <a href="?page={{ page_obj.next_page_number }}">Sonraki</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <p>
+
+            </p>
+            <p>
+                Bu bölümde kurumumuz hakkında bilgiler bulabilirsiniz. Amacımız, eğitim kalitesini en üst düzeyde tutarak öğrencilerimize en iyi hizmeti sunmaktır.
+            </p>
+            <p>
+                Kurumumuzun tarihçesi, misyonu ve vizyonu ile ilgili detaylı bilgileri aşağıda bulabilirsiniz. Profesyonel kadromuz ve kaliteli eğitim anlayışımız ile sektörde öncü bir kurum olmayı hedeflemekteyiz.
+            </p>
+                <!-- Additional paragraphs or other content can go here -->
+        </div>
+        <div class="col-md-12">
+            {% load_email_form form %}
+        </div>
+    </div>
+</div>
+
+{% endblock %}

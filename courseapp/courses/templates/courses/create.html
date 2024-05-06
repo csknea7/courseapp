@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+
+{% block page_title %}
+    kurs ekle
+{% endblock %}
+
+
+{% block content %}
+<div class="container mt-3">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-md-start">
+                <form action="{% url 'create' %}" method="POST">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Title</label>
+                        <input type="text" name="title" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        <input type="text" name="description" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="imageUrl" class="form-label">imageUrl</label>
+                        <input type="text" name="imageUrl" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Date</label>
+                        <input type="text" name="date" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="isActive" class="form-label">isActive</label>
+                        <input type="text" name="isActive" class="form-control">
+                    </div>
+                    <button type="submit">Kaydet</button>
+                </form>
+                </div>
+            </div>
+
+        </div>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% load static %}
+
+<div id="slider" class="carousel slide mb-3" data-bs-ride="carousel" xmlns="http://www.w3.org/1999/html">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#slider" data-bs-slide="0" class="active"></button>
+        <button type="button" data-bs-target="#slider" data-bs-slide="1" class="active"></button>
+        <button type="button" data-bs-target="#slider" data-bs-slide="2" class="active"></button>
+
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'courses/static/img/image1' %}" class="d-block w-100">
+        </div>
+        <div class="carousel-item active">
+            <img src="{% static 'courses/static/img/image2' %}" class="d-block w-100">
+        </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+</div>
+
+<script>
+$(document).ready(function(){
+    $("#slider").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+});
+</script>

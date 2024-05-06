@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block page_title %}
+<h1>login</h1>
+{% endblock %}
+
+
+
+{% block content %}
+<div class="container mt-3">
+        <div class="row">
+            <div class="col-12">
+                <h1>User Login</h1>
+                <form method="POST" action="/account/login/">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <input type="text" name="username" required placeholder="UserName">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" name="password" required placeholder="Password">
+                    </div>
+                    <div>
+                        <button class="btn btn-success" type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
+{% endblock %}

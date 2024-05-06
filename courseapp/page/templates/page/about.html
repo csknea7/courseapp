@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+{% block page_title %}
+    hakkımızda
+{% endblock %}
+
+
+{% block content %}
+<div class="container mt-3">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-md-start">
+                <!--menu-->
+                {% include 'courses/partials/_categories.html'%}
+                <h1 style="margin-bottom: 30px;">HAKKIMIZDA</h1>
+
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+
+                </p>
+                <p>
+                    Bu bölümde kurumumuz hakkında bilgiler bulabilirsiniz. Amacımız, eğitim kalitesini en üst düzeyde tutarak öğrencilerimize en iyi hizmeti sunmaktır.
+                </p>
+                <p>
+                    Kurumumuzun tarihçesi, misyonu ve vizyonu ile ilgili detaylı bilgileri aşağıda bulabilirsiniz. Profesyonel kadromuz ve kaliteli eğitim anlayışımız ile sektörde öncü bir kurum olmayı hedeflemekteyiz.
+                </p>
+                <!-- Additional paragraphs or other content can go here -->
+            </div>
+        </div>
+            <div class="col-9">
+                {% include 'courses/partials/_slider.html' %}
+            </div>
+
+</div>
+{% endblock %}
