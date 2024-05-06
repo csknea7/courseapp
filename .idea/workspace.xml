@@ -5,108 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b5b341a-7b44-4b28-9b63-22013120b27b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/templates/account/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/templates/account/fail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/templates/account/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/templates/account/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/account/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courseapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courseapp/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courseapp/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courseapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courseapp/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/migrations/0002_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/migrations/0003_uploadmodel_slider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/static/css/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/static/css/style.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/static/img/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/static/img/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/static/img/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/course-delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/course-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/course-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/kurs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/kurslar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/partials/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/partials/_categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/partials/_slider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/templates/courses/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/courses/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/email/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/migrations/0002_rename_blog_destination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/migrations/0003_category_destination_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/migrations/0004_alter_destination_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/migrations/0005_remove_destination_category_delete_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/migrations/0006_category_destination_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/migrations/0007_alter_category_table_alter_destination_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/migrations/0008_alter_destination_options.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/templates/page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/templates/page/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/templates/page/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/templates/page/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/page/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/restapi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/restapi/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/restapi/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/restapi/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/restapi/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/restapi/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/restapi/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/restapi/templates/restapi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/restapi/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/restapi/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/temp/IMG_1067_33481827.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/temp/IMG_1067_50451683.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/templates/partials/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/courseapp/templates/partials/_nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -135,27 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/esra/PycharmProjects/pythonProject5/courseapp/courses/templates/courses",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/esra/PycharmProjects/pythonProject5/courseapp/courses/templates/courses&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/courseapp/courses/templates/courses" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/courseapp" />
+      <recent name="$PROJECT_DIR$/courseapp/courseapp" />
+      <recent name="$PROJECT_DIR$/newenv" />
       <recent name="$PROJECT_DIR$/courseapp/courses/static/img" />
       <recent name="$PROJECT_DIR$/courseapp/courses/templates/courses/partials" />
-      <recent name="$PROJECT_DIR$/courseapp/courses" />
-      <recent name="$PROJECT_DIR$/courseapp/page/templates/page" />
     </key>
   </component>
   <component name="RunManager">
@@ -207,14 +106,27 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/courseapp/courses/urls.py</url>
           <line>3</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/courseapp/page/urls.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/courseapp/courseapp/urls.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/courseapp/mail/views.py</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/courseapp/mail/views.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
