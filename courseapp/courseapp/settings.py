@@ -127,6 +127,7 @@ STATIC_URL = '/static/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
+# Email Settings
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
@@ -136,5 +137,5 @@ EMAIL_USE_SSL = True
 EMAIL_HOST_USER = 'csknea@gmail.com'
 EMAIL_HOST_PASSWORD = 'Edah2333130x@.$s'
 RECIPIENT_ADDRESS = ['coskunesra@outlook.com']
-#send_mail('A cool subject', 'A stunning message', settings.EMAIL_HOST_USER, [settings.RECIPIENT_ADDRESS])
+# send_mail('A cool subject', 'A stunning message', settings.EMAIL_HOST_USER, [settings.RECIPIENT_ADDRESS])
 

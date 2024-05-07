@@ -1,10 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'layout.html' %}
 
-</body>
-</html>
+
+
+{% block content %}
+    <center>
+        {% if searched %}
+            <h1> You searched for {{ searched }} </h1>
+            <br/>
+            {% for course in courses %}
+                {{ course }}
+            </br>
+            {% endfor %}
+        {% else %}
+            <h1>Hey! you forgot to search a venue </h1>
+        {% endif %}
+    </center>
+{% endblock %}

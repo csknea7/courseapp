@@ -58,7 +58,12 @@ def article(request, year, month):
 
 
 def search(request):
-    pass
+    if request.method == "POST":
+        searched = request.POST['searched']
+        courses = Course.objects.filter(title__icontains=searched)
+        return render(request, 'courses/search.html', {'searched': searched,'courses': courses})
+    else:
+        return render(request, 'courses/search.html')
 
 
 def kurslar(request):
